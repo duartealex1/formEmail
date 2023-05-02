@@ -72,13 +72,13 @@ function App() {
 
   return (
     <div className="container col-10">
-      <h1 className="title">Contato</h1>
+      <h1 className="title">Contact</h1>
 
       <form className="form-group" onSubmit={sendEmail}>
         <input
           className="form-control mb-3"
           type="text"
-          placeholder="Digite seu nome"
+          placeholder="Type your name"
           onChange={(e) => setName(e.target.value)}
           value={name}
         />
@@ -86,14 +86,14 @@ function App() {
         <input
           className="form-control mb-3"
           type="text"
-          placeholder="Digite seu email"
+          placeholder="Type your e-mail"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
         />
 
         <textarea
           className="form-control mb-4"
-          placeholder="Digite sua mensagem..."
+          placeholder="Digite seu email..."
           onChange={(e) => setMessage(e.target.value)}
           value={message}
         />
